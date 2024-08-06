@@ -11,7 +11,7 @@ import ModalExample from "../modal";
 import { IoCheckmarkOutline } from "react-icons/io5";
 import request from "superagent";
 
-const PersonalInfo = ({ }) => {
+const PersonalInfo = ({}) => {
   const [otp, setOtp] = useState({
     digit1: "",
     digit2: "",
@@ -48,10 +48,10 @@ const PersonalInfo = ({ }) => {
 
   const [location, setLocation] = useState(inputData.address);
   const [number, setNumber] = useState(inputData.mobile_number);
-  const [imageUrl, setImageUrl] = useState(""); 
+  const [imageUrl, setImageUrl] = useState("");
   // handleImage____________________________________________
 
-  const handleImage = (e:any) => {
+  const handleImage = (e: any) => {
     if (e.target.files) {
       setUploadImage(e.target.files[0]);
       const imageUrl = URL.createObjectURL(e.target.files[0]); // Create URL for preview
@@ -89,7 +89,6 @@ const PersonalInfo = ({ }) => {
   // handleEditProfile____________________________
 
   const handleEditProfile = async (e: any) => {
-    
     try {
       const res = await Henceforthapi.editProfile({
         first_name: name,
@@ -216,7 +215,7 @@ const PersonalInfo = ({ }) => {
                           name="location"
                           onChange={(e) => setLocation(e.target.value)}
 
-                        // value={email}
+                          // value={email}
                         />
                       </div>
                       <div className="form-butn mb-3">
@@ -339,7 +338,7 @@ const PersonalInfo = ({ }) => {
                       alt="Uploaded"
                     />
                   )} */}
-                    {imageUrl && <img src={imageUrl} alt="Uploaded" />} 
+                  {imageUrl && <img src={imageUrl} alt="Uploaded" />}
                 </div>
                 <input type="file" name="file" onChange={handleImage} />
 

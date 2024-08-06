@@ -12,6 +12,7 @@ const numbersignup = () => {
     country: "",
     number: "",
   });
+  console.log(code);
 
   const handleChange = (e: any) => {
     const name = e.target.name;
@@ -36,16 +37,10 @@ const numbersignup = () => {
           country_code: code.country,
         });
         if (code.number.length != 10) {
-          alert('enter a 10-digit number')
-
-        } else
-          alert(' try again')
+          alert("enter  10-digit number");
+        } else alert(" try again");
 
         console.log(postData1, "postData1");
-        // router.push({
-        //   pathname: "/otp",
-        //   query: { number: `${code.number}`, code: `${code.country}` }
-        // });
       } catch (error) {
         console.error("Error:", error);
       }
@@ -90,8 +85,8 @@ const numbersignup = () => {
                 </div>
                 <div className="footer">
                   <p>
-                    you have already account?
-                      <span className="spain">sign in</span>
+                    your account already  ?
+                    <span className="spain">sign in</span>
                   </p>
                 </div>
               </div>

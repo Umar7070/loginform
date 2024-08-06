@@ -38,7 +38,7 @@ const index = () => {
 
                 <div className="sign_in">
                   <p>
-                    You Have Already account?
+                    Your  account Already exist ?
                     <Link href="/signin">
                       <span className="span">Sign in</span>
                     </Link>

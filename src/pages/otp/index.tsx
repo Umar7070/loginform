@@ -11,9 +11,9 @@ const otp = () => {
   const number = router.query.number;
 
   const changeNumber = (index: any, value: any) => {
-    const newOtpFields = [...otpFields]
+    const newOtpFields = [...otpFields];
     newOtpFields[index] = value;
-    setOtpFields(newOtpFields)
+    setOtpFields(newOtpFields);
   };
   // handleOtp____________________________________
 
@@ -26,7 +26,7 @@ const otp = () => {
         mobile_number: mobileNumber,
         otp: enteredOtp,
       });
-      alert('otp is verifyed')
+      alert("otp is verifyed");
 
       console.log(postData1, "postData1");
       router.push("/emailotp");
@@ -36,7 +36,6 @@ const otp = () => {
       alert("Error during OTP verification");
     }
   };
-
 
   return (
     <>
@@ -56,20 +55,18 @@ const otp = () => {
                   <h6>{number}</h6>
                 </div>
                 <div className="number_box">
-                  {
-                    otpFields.map((elem, index) => {
-                      return (
-                        <input
-                          type="text"
-                          className="input_box"
-                          maxLength={1}
-                          name="number"
-                          value={elem}
-                          onChange={(e) => changeNumber(index, e.target.value)}
-                        />
-                      )
-                    })
-                  }
+                  {otpFields.map((elem, index) => {
+                    return (
+                      <input
+                        type="text"
+                        className="input_box"
+                        maxLength={1}
+                        name="number"
+                        value={elem}
+                        onChange={(e) => changeNumber(index, e.target.value)}
+                      />
+                    );
+                  })}
                 </div>
                 <div className="btn ">
                   <button className="btn btn-danger" onClick={handleOtp}>
@@ -78,7 +75,13 @@ const otp = () => {
                 </div>
                 <div className="container_footer">
                   <p>
-                    Did't get a text ?   <Link href='/numbersignup' style={{ textDecoration: 'none' }}><span>Send again</span></Link>
+                    Did't get a text ?{" "}
+                    <Link
+                      href="/numbersignup"
+                      style={{ textDecoration: "none" }}
+                    >
+                      <span>Send again</span>
+                    </Link>
                   </p>
                 </div>
               </div>

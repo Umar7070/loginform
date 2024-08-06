@@ -7,10 +7,10 @@ const resetpassword = () => {
     token: "",
     password: "",
   });
+  console.log(inputData);
   const { token, password } = inputData;
 
   const handleChange = (e: any) => {
-    console.log("workkkkkkk");
     const name = e.target.name;
     const value = e.target.value;
     console.log(name, value);
