@@ -1,0 +1,825 @@
+/* welcome_____________________________________ */
+
+.box {
+  width: 500px;
+  margin: auto;
+  margin-top: 10%;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.image img {
+  width: 40px;
+  height: 40px;
+}
+
+.grp_btn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.grp_btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.grp_btn button {
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+}
+
+.phone_btn {
+  background-color: crimson;
+  color: white;
+}
+
+.google_btn {
+  background-color: red;
+  color: white;
+}
+
+.facebook_btn {
+  background-color: rgb(99, 99, 226);
+  color: white;
+}
+
+.phone_icon {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  color: white;
+}
+
+.google_icon {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.facebook_icon {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.sign_in {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sign_in p {
+  color: gray;
+}
+
+.span {
+  color: red;
+}
+
+/* .emailverification_____________________________ */
+.emailverifi_box {
+  width: 500px;
+  padding: 50px;
+  color: navy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  margin-top: 10%;
+  background-color: navajowhite;
+  border-radius: 20px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.stick {
+  font-size: 50px;
+  color: green;
+}
+
+/* singup css___________________________ */
+
+.box_container {
+  width: 400px;
+  background-color: navajowhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 10%;
+  border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.infut_feild {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding-inline: 20px;
+  gap: 10px;
+}
+
+.infut_feild input {
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+}
+
+.continue_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  padding-inline: 20px;
+  margin-top: 15px;
+}
+
+.continue_btn button {
+  width: 100%;
+  padding-inline: 20px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.footer {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  color: gray;
+}
+
+.spain {
+  color: maroon;
+}
+
+/* otp ____________________________________ */
+
+.container_box {
+  width: 400px;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 10%;
+  border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.number_box {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.number_box input {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container_footer {
+  margin-top: 20px;
+  color: gray;
+}
+
+.container_footer span {
+  color: black;
+  text-decoration: underline;
+}
+
+/* finishsignup__________________________ */
+
+.signup_box {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 10%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.signup_img {
+  justify-content: center;
+  margin-top: 10px;
+  display: flex;
+}
+
+.signup_img img {
+  margin-top: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.finishing_heading {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+.arrow_icon {
+  position: absolute;
+  left: -110px;
+  top: 5px;
+}
+
+.token {
+  color: red;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.circle img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.signUp_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-inline: 50px;
+}
+
+.signUp_btn button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-inline: 20px;
+  margin-top: 20px;
+  background-color: crimson;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+/* forgetpassword__________________________ */
+
+.forgetpassword_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  background-color: rgb(252, 168, 137);
+  margin: auto;
+  margin-top: 10%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 10px;
+}
+
+.forgetbox_mg img {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.forget_inputfeild {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-inline: 40px;
+}
+
+.forget_inputfeild input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.forget_btn {
+  width: 100%;
+  padding-inline: 40px;
+}
+
+.forget_btn button {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: crimson;
+  color: white;
+}
+
+/* signupverification___________________________ */
+
+.form_container {
+  width: 500px;
+  background-color: rgb(156, 156, 121);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px auto;
+}
+
+.form_heading {
+  display: flex;
+  position: relative;
+}
+
+.left_arrow {
+  position: absolute;
+  top: 5px;
+  left: -150px;
+}
+
+.img_container img {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.inpu_feild {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-inline: 50px;
+  gap: 10px;
+  position: relative;
+}
+
+.user {
+  position: absolute;
+  top: 15px;
+  left: 80%;
+  color: orangered;
+}
+
+.email {
+  position: absolute;
+  top: 85px;
+  left: 80%;
+  color: orangered;
+
+}
+
+.icons_eye {
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  color: orangered;
+
+}
+
+.inpu_feild input {
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+}
+
+.chec_box {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.chec_box input {
+  margin-left: 40px;
+}
+
+.chec_box span {
+  color: red;
+}
+
+.chec_box p {
+  margin-top: 35px;
+}
+
+.form_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-inline: 50px;
+}
+
+.form_btn button {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+}
+
+.form_footer span {
+  color: red;
+}
+
+/* resetpassword____________________________________ */
+
+.reset_box {
+  width: 500px;
+  margin: auto;
+  margin-top: 10%;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.image_container {
+  display: flex;
+  justify-content: center;
+}
+
+.image_container img {
+  width: 50px;
+  height: 50px;
+}
+
+.reset_feild {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reset_feild input {
+  border-radius: 10px;
+  padding: 5px;
+  outline: none;
+}
+
+.reset_btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.reset_btn button {
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: crimson;
+  color: white;
+}
+
+/* welcomeuser_______________________________ */
+
+.welcm_user_box {
+  width: 500px;
+  margin: auto;
+  margin-top: 10%;
+  background-color: rgb(243, 243, 123);
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.wlcm_img {
+  display: flex;
+  justify-content: center;
+}
+
+.wlcm_img img {
+  width: 50px;
+  height: 50px;
+}
+
+.wlcm_heading {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.arrow_left {
+  position: absolute;
+  top: 10px;
+  left: -20px;
+}
+
+.user_feild {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.email_icons {
+  position: absolute;
+  top: 6%;
+  left: 85%;
+  color: red;
+}
+
+.password_icons {
+  position: absolute;
+  left: 85%;
+  color: red;
+  top: 66%;
+}
+
+.user_feild input {
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+}
+
+.user_btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.user_btn button {
+  border: none;
+  padding: 5px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+}
+
+.password {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  color: red;
+}
+
+.user_footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.user_footer span {
+  color: red;
+}
+
+/* section-header_______________________________________ */
+
+.section-header {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  padding: 5px;
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-end;
+  padding-inline: 20px;
+  align-items: center;
+}
+
+.profile img {
+  width: 70px;
+  border-radius: 50%;
+  height: 70px;
+}
+
+.profile span {
+  margin-left: 20px;
+}
+
+/* section-footer______________________________________ */
+
+.section-footer {
+  background-color: rgb(243, 72, 72);
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.socal_icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.icons {
+  border-radius: 20px;
+  color: white;
+}
+
+.text {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  color: white;
+}
+
+.footer_mag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+/* Account____________________________________________ */
+
+.personal_info {
+  display: flex;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 10px;
+}
+
+/* .ChangePassword _____________________________________________ */
+
+.top_text {
+  display: flex;
+  margin-top: 20px;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 20px;
+  position: relative;
+}
+
+.closeEye {
+  position: absolute;
+  top: 55%;
+  left: 80%;
+}
+
+.openEye {
+  position: absolute;
+  top: 40%;
+  left: 80%;
+}
+
+.form-btn button {
+  background-color: maroon;
+  color: white;
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+}
+
+/* PersonalInfo_____________________________________ */
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+} 
+
+.label {
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.form_feild {
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+}
+.input {
+  border: none;
+  list-style: none;
+  line-height: 1px !important;
+  padding: 10px 0px !important;
+}
+
+.edit_btn button{
+  border: none;
+  outline: none;
+}
+.form_feild input {
+  width: 90%;
+}
+
+.save_button button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: maroon;
+  color: white;
+  border: none;
+}
+
+.profile_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 10%;
+}
+
+/* Notification___________________________________ */
+
+
+.input_aline  {
+  border-radius: 10px;
+  height: 35px;
+  background-color: white;
+  margin: 10px 0px;
+}
+.notification {
+  display: flex;
+  align-items: center;
+  gap: 20%;
+}
+
+.toggle_icon {
+  font-size: 40px;
+  color: crimson;
+}
+.errorText{
+  color: red;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+
+
+:focus-visible{
+outline:none !important;
+}
+
+
+/* modal____________________________________ */
+
+
+.no_box input{
+  height: 50px;
+  width: 50px;
+}
+
+.links {
+  text-decoration: none;
+
+}
+.links:hover {
+  color: red;
+}
+
+.outline {
+  font-size: 50px;
+  background-color: green;
+  color: white;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.img_upload img {
+  width: 100px;
+  height: 100px;
+}
+
+.text-secondary p {
+  text-decoration: none;
+}
